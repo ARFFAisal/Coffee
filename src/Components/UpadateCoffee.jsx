@@ -12,6 +12,19 @@ const UpadateCoffee = () => {
         const formData = new FormData(form);
         const updateCoffee = Object.fromEntries(formData.entries())
         console.log(updateCoffee);
+
+        // send update coffee to db
+        fetch(`http://localhost:3000/coffees/${_id}`,{
+            method: 'PUT',
+            headers: {
+                'content-type': 'application/json',
+            },
+            body: JSON.stringify(updateCoffee),
+        })
+        .then(res=> res.json())
+        .then(data=>{
+            console.log(data);
+        })
     }
 
     return (
