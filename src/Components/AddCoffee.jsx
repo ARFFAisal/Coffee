@@ -58,7 +58,7 @@ const AddCoffee = () => {
               type="text"
               name="Barista"
               className="input w-full"
-              placeholder="Coffee name"
+              placeholder="Barista name"
             />
           </fieldset>
           <fieldset className="fieldset bg-base-200 border-base-300 rounded-box  border p-4">
@@ -67,7 +67,7 @@ const AddCoffee = () => {
               type="text"
               name="Supplier"
               className="input w-full"
-              placeholder="Coffee name"
+              placeholder="Supplier  name"
             />
           </fieldset>
           <fieldset className="fieldset bg-base-200 border-base-300 rounded-box  border p-4">
@@ -80,12 +80,12 @@ const AddCoffee = () => {
             />
           </fieldset>
           <fieldset className="fieldset bg-base-200 border-base-300 rounded-box  border p-4">
-            <label className="label">Category</label>
+            <label className="label">Price</label>
             <input
               type="text"
-              name="Category"
+              name="Price"
               className="input w-full"
-              placeholder="Coffee name"
+              placeholder="Price per cup"
             />
           </fieldset>
           <fieldset className="fieldset bg-base-200 border-base-300 rounded-box  border p-4">
@@ -94,7 +94,7 @@ const AddCoffee = () => {
               type="text"
               name="Details"
               className="input w-full"
-              placeholder="Coffee name"
+              placeholder="Coffee Details"
             />
           </fieldset>
         </div>
@@ -102,7 +102,7 @@ const AddCoffee = () => {
           <label className="label">Photo</label>
           <input
             type="text"
-            name="name"
+            name="Photourl"
             className="input w-full"
             placeholder="Photo Url"
           />
